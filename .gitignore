@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 가상환경
+venv/
+.venv/
+
+# PyCharm 설정
+.idea/
+
+# 기타
+.DS_Store
