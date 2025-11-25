@@ -8,7 +8,7 @@ import re
 
 # OCR 초기화
 reader = easyocr.Reader(['ko', 'en'])
-
+# 이건 깃 테스트르 위한 주석입니다.
 # 이미지 전처리
 def preprocess_image(image_path):
     pil_img = Image.open(image_path).convert("RGB")
